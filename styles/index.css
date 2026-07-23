@@ -57,11 +57,16 @@ header {
             padding: 13px 30px;
             border-radius: 30px;
             color: var(--white);
-            font-weight: 600;
+            font-weight: 800;
+            box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.7);
         }
 
         .green {
             background-color: var(--green-500);
+        }
+
+        .blue {
+            background-color: var(--blue-100);
         }
     }
 }
