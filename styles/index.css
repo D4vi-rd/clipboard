@@ -8,6 +8,7 @@
     /* cores Primarias */
     --green-500: hsl(171, 66%, 44%);
     --blue-100: hsl(233, 100%, 69%);
+    --white: #fff;
     /* cores neutras */
     --gray-700: hsl(210, 10%, 33%);
     --gray-500: hsl(201, 11%, 66%);
@@ -18,5 +19,49 @@
 body {
     background-image: url(/img/bg-header-desktop.png);
     background-repeat: no-repeat;
-    
+    width: 100%;
+    font-family: var(--ff);
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-block: 90px;
+
+    img {
+        width: 90px;
+        height: 90px;
+        margin-bottom: 2rem;
+    }
+
+    h1 {
+        color: var(--gray-700);
+        font-size: 40px;
+        padding-bottom: 16px;
+    }
+
+    p {
+        color: var(--gray-500);
+        text-align: center;
+        padding-bottom: 16px;
+    }
+
+    .botoes {
+        display: flex;
+        gap: 16px;
+
+        button {
+            border: none;
+            padding: 13px 30px;
+            border-radius: 30px;
+            color: var(--white);
+            font-weight: 600;
+        }
+
+        .green {
+            background-color: var(--green-500);
+        }
+    }
 }
