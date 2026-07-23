@@ -14,3 +14,9 @@
     /* fonte */
     --ff: "Bai Jamjuree", sans-serif;
 }
+
+body {
+    background-image: url(/img/bg-header-desktop.png);
+    background-repeat: no-repeat;
+    
+}
