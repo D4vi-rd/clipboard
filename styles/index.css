@@ -28,7 +28,7 @@ header {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin-block: 90px;
+    margin-block: 90px 100px;
 
     img {
         width: 90px;
@@ -60,6 +60,7 @@ header {
             font-weight: 800;
             box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.7);
             transition: 350ms;
+            border: 2px solid transparent;
         }
 
         .green {
