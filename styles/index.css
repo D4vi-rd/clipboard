@@ -191,4 +191,11 @@ main {
             }
         }
     }
+
+    .sect-5 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 7rem;
+    }
 }
